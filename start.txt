@@ -1,0 +1,10 @@
+# Terminal 1 — Backend
+cd C:\Users\aryan\Downloads\projects\AyuNet\backend
+C:\Users\aryan\Downloads\projects\AyuNet\venv\Scripts\python.exe -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+# Terminal 2 — Frontend
+cd C:\Users\aryan\Downloads\projects\AyuNet\frontend
+npm run dev
+
+# Terminal 3 — Ngrok (required for Twilio webhooks)
+ngrok http 8000

@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+neo4j
+groq
+pydantic
+python-dotenv
+pandas
+websockets
+httpx
+twilio
+apscheduler
+python-multipart
+livekit
+livekit-api
