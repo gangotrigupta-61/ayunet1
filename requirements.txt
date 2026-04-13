@@ -12,3 +12,12 @@ apscheduler
 python-multipart
 livekit
 livekit-api
+
+
+fastapi
+uvicorn
+neo4j
+python-dotenv
+requests
+pydantic
+apscheduler
